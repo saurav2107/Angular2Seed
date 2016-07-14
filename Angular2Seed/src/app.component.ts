@@ -2,7 +2,7 @@
 
 @Component({
     selector: 'my-app',
-    template: `<div>Hello Angular 2</div>`
+    template: `<div>Hello Angular 2!</div>`
 
 })
 
