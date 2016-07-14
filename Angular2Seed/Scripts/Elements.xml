@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\node_modules\angular2\bundles\angular2-polyfills.js" Url="Scripts/node_modules/angular2/bundles/angular2-polyfills.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\angular2\bundles\angular2-polyfills.min.js" Url="Scripts/node_modules/angular2/bundles/angular2-polyfills.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\angular2\bundles\angular2.dev.js" Url="Scripts/node_modules/angular2/bundles/angular2.dev.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\angular2\bundles\angular2.js" Url="Scripts/node_modules/angular2/bundles/angular2.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\angular2\bundles\http.dev.js" Url="Scripts/node_modules/angular2/bundles/http.dev.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\angular2\bundles\http.js" Url="Scripts/node_modules/angular2/bundles/http.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\angular2\bundles\http.min.js" Url="Scripts/node_modules/angular2/bundles/http.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\angular2\bundles\router.dev.js" Url="Scripts/node_modules/angular2/bundles/router.dev.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\angular2\bundles\router.js" Url="Scripts/node_modules/angular2/bundles/router.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\angular2\bundles\router.min.js" Url="Scripts/node_modules/angular2/bundles/router.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\bootstrap\dist\css\bootstrap.min.css" Url="Scripts/node_modules/bootstrap/dist/css/bootstrap.min.css" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" Url="Scripts/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" Url="Scripts/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" Url="Scripts/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" Url="Scripts/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" Url="Scripts/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\bootstrap\dist\js\bootstrap.min.js" Url="Scripts/node_modules/bootstrap/dist/js/bootstrap.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\es6-shim\es6-shim.js" Url="Scripts/node_modules/es6-shim/es6-shim.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\es6-shim\es6-shim.map" Url="Scripts/node_modules/es6-shim/es6-shim.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\es6-shim\es6-shim.min.js" Url="Scripts/node_modules/es6-shim/es6-shim.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\jquery\dist\jquery.js" Url="Scripts/node_modules/jquery/dist/jquery.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\jquery\dist\jquery.min.js" Url="Scripts/node_modules/jquery/dist/jquery.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\jquery\dist\jquery.min.map" Url="Scripts/node_modules/jquery/dist/jquery.min.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\reflect-metadata\Reflect.js" Url="Scripts/node_modules/reflect-metadata/Reflect.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\reflect-metadata\Reflect.js.map" Url="Scripts/node_modules/reflect-metadata/Reflect.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\reflect-metadata\Reflect.ts" Url="Scripts/node_modules/reflect-metadata/Reflect.ts" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\rxjs\bundles\Rx.js" Url="Scripts/node_modules/rxjs/bundles/Rx.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\rxjs\bundles\Rx.min.js" Url="Scripts/node_modules/rxjs/bundles/Rx.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\rxjs\bundles\Rx.min.js.map" Url="Scripts/node_modules/rxjs/bundles/Rx.min.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\systemjs\dist\system-polyfills.js" Url="Scripts/node_modules/systemjs/dist/system-polyfills.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\systemjs\dist\system-polyfills.js.map" Url="Scripts/node_modules/systemjs/dist/system-polyfills.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\systemjs\dist\system-polyfills.src.js" Url="Scripts/node_modules/systemjs/dist/system-polyfills.src.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\systemjs\dist\system.js" Url="Scripts/node_modules/systemjs/dist/system.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\systemjs\dist\system.js.map" Url="Scripts/node_modules/systemjs/dist/system.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\systemjs\dist\system.src.js" Url="Scripts/node_modules/systemjs/dist/system.src.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\zone.js\dist\zone.js" Url="Scripts/node_modules/zone.js/dist/zone.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\node_modules\zone.js\dist\zone.min.js" Url="Scripts/node_modules/zone.js/dist/zone.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\src\app.component.js" Url="Scripts/src/app.component.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\src\boot.js" Url="Scripts/src/boot.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

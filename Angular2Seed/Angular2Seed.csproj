@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{566EA19C-5C0A-4DA7-9919-47C74CF03167}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Angular2Seed</RootNamespace>
+    <AssemblyName>Angular2Seed</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.1</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>12.2</MinimumOfficeToolsVersion>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{e0e4338f-4b67-4da3-8240-6d17aac0de3f}</AppFeaturePartId>
+    <WspPartId>{8044ec87-4d9e-48b7-873d-cff1928402a8}</WspPartId>
+    <WorkflowPartId>{6affc356-23e2-447a-b5d1-767d4fcd8d44}</WorkflowPartId>
+    <CspkgPartId>{0e190374-159a-47cc-b4ab-b79b31a3ced1}</CspkgPartId>
+    <SqlPackagePartId>{3e672861-a9cb-48d7-8314-c917f75b20a2}</SqlPackagePartId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="package.json" />
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{904867b5-c4a4-4bda-ab02-72d36ff88c8a}</SharePointProjectItemId>
+    </None>
+    <Content Include="Elements.xml" />
+    <Content Include="Pages\Elements.xml" />
+    <Content Include="Pages\Default.aspx" />
+    <None Include="Scripts\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Scripts\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="Scripts\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Scripts\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Scripts\node_modules\es6-shim\es6-shim.map" />
+    <None Include="Scripts\node_modules\jquery\dist\jquery.min.map" />
+    <None Include="Scripts\node_modules\reflect-metadata\Reflect.js.map" />
+    <None Include="Scripts\node_modules\rxjs\bundles\Rx.min.js.map" />
+    <None Include="Scripts\node_modules\systemjs\dist\system-polyfills.js.map" />
+    <None Include="Scripts\node_modules\systemjs\dist\system.js.map" />
+    <None Include="SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ef22a8fd-2764-413f-890c-855c43736ee5}</SharePointProjectItemId>
+    </None>
+    <None Include="tsconfig.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3e672861-a9cb-48d7-8314-c917f75b20a2}</SharePointProjectItemId>
+    </None>
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\node_modules\angular2\bundles\angular2-polyfills.js" />
+    <Content Include="Scripts\node_modules\angular2\bundles\angular2-polyfills.min.js" />
+    <Content Include="Scripts\node_modules\angular2\bundles\angular2.dev.js" />
+    <Content Include="Scripts\node_modules\angular2\bundles\angular2.js" />
+    <Content Include="Scripts\node_modules\angular2\bundles\http.dev.js" />
+    <Content Include="Scripts\node_modules\angular2\bundles\http.js" />
+    <Content Include="Scripts\node_modules\angular2\bundles\http.min.js" />
+    <Content Include="Scripts\node_modules\angular2\bundles\router.dev.js" />
+    <Content Include="Scripts\node_modules\angular2\bundles\router.js" />
+    <Content Include="Scripts\node_modules\angular2\bundles\router.min.js" />
+    <Content Include="Scripts\node_modules\bootstrap\dist\css\bootstrap.min.css" />
+    <Content Include="Scripts\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Scripts\node_modules\bootstrap\dist\js\bootstrap.min.js" />
+    <Content Include="Scripts\node_modules\es6-shim\es6-shim.js" />
+    <Content Include="Scripts\node_modules\es6-shim\es6-shim.min.js" />
+    <Content Include="Scripts\node_modules\jquery\dist\jquery.js" />
+    <Content Include="Scripts\node_modules\jquery\dist\jquery.min.js" />
+    <Content Include="Scripts\node_modules\reflect-metadata\Reflect.js" />
+    <Content Include="Scripts\node_modules\rxjs\bundles\Rx.js" />
+    <Content Include="Scripts\node_modules\rxjs\bundles\Rx.min.js" />
+    <Content Include="Scripts\node_modules\systemjs\dist\system-polyfills.js" />
+    <Content Include="Scripts\node_modules\systemjs\dist\system-polyfills.src.js" />
+    <Content Include="Scripts\node_modules\systemjs\dist\system.js" />
+    <Content Include="Scripts\node_modules\systemjs\dist\system.src.js" />
+    <Content Include="Scripts\node_modules\zone.js\dist\zone.js" />
+    <Content Include="Scripts\node_modules\zone.js\dist\zone.min.js" />
+    <Content Include="Scripts\src\app.component.js" />
+    <Content Include="Scripts\src\boot.js" />
+    <Content Include="Scripts\_references.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3c2cb714-52f9-4dec-beb7-ff820f8b82f7}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+    <Content Include="Content\App.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AppIcon.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{aea136a3-861b-45a4-8b59-47a607cb84ff}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{4a7e00c3-969b-4d46-82b5-1e87c82bbb77}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{1b8e5e81-49ef-4e4a-9c20-73b8fed125b1}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="Scripts\node_modules\reflect-metadata\Reflect.ts" />
+    <TypeScriptCompile Include="src\app.component.ts" />
+    <TypeScriptCompile Include="src\boot.ts" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

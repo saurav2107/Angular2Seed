@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="RootModule">
+    <File Path="package.json" Url="package.json" ReplaceContent="TRUE" />
+    <File Path="tsconfig.json" Url="tsconfig.json" ReplaceContent="TRUE" />
+    <File Path="src\app.component.ts" Url="src/app.component.ts" ReplaceContent="TRUE" />
+    <File Path="src\boot.ts" Url="src/boot.ts" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="4a7e00c3-969b-4d46-82b5-1e87c82bbb77" 
+        solutionId="4a7e00c3-969b-4d46-82b5-1e87c82bbb77" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="Angular2Seed"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="1b8e5e81-49ef-4e4a-9c20-73b8fed125b1" />
+  </features>
+</package>

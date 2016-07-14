@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Scripts\" Type="ElementManifest" />
+    <ProjectItemFile Source="node_modules\angular2\bundles\angular2-polyfills.js" Target="Scripts\node_modules\angular2\bundles\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\angular2\bundles\angular2-polyfills.min.js" Target="Scripts\node_modules\angular2\bundles\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\angular2\bundles\angular2.dev.js" Target="Scripts\node_modules\angular2\bundles\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\angular2\bundles\angular2.js" Target="Scripts\node_modules\angular2\bundles\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\angular2\bundles\http.dev.js" Target="Scripts\node_modules\angular2\bundles\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\angular2\bundles\http.js" Target="Scripts\node_modules\angular2\bundles\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\angular2\bundles\http.min.js" Target="Scripts\node_modules\angular2\bundles\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\angular2\bundles\router.dev.js" Target="Scripts\node_modules\angular2\bundles\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\angular2\bundles\router.js" Target="Scripts\node_modules\angular2\bundles\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\angular2\bundles\router.min.js" Target="Scripts\node_modules\angular2\bundles\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\bootstrap\dist\css\bootstrap.min.css" Target="Scripts\node_modules\bootstrap\dist\css\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" Target="Scripts\node_modules\bootstrap\dist\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" Target="Scripts\node_modules\bootstrap\dist\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" Target="Scripts\node_modules\bootstrap\dist\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" Target="Scripts\node_modules\bootstrap\dist\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" Target="Scripts\node_modules\bootstrap\dist\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\bootstrap\dist\js\bootstrap.min.js" Target="Scripts\node_modules\bootstrap\dist\js\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\es6-shim\es6-shim.js" Target="Scripts\node_modules\es6-shim\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\es6-shim\es6-shim.map" Target="Scripts\node_modules\es6-shim\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\es6-shim\es6-shim.min.js" Target="Scripts\node_modules\es6-shim\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\jquery\dist\jquery.js" Target="Scripts\node_modules\jquery\dist\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\jquery\dist\jquery.min.js" Target="Scripts\node_modules\jquery\dist\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\jquery\dist\jquery.min.map" Target="Scripts\node_modules\jquery\dist\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\reflect-metadata\Reflect.js" Target="Scripts\node_modules\reflect-metadata\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\reflect-metadata\Reflect.js.map" Target="Scripts\node_modules\reflect-metadata\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\reflect-metadata\Reflect.ts" Target="Scripts\node_modules\reflect-metadata\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\rxjs\bundles\Rx.js" Target="Scripts\node_modules\rxjs\bundles\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\rxjs\bundles\Rx.min.js" Target="Scripts\node_modules\rxjs\bundles\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\rxjs\bundles\Rx.min.js.map" Target="Scripts\node_modules\rxjs\bundles\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\systemjs\dist\system-polyfills.js" Target="Scripts\node_modules\systemjs\dist\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\systemjs\dist\system-polyfills.js.map" Target="Scripts\node_modules\systemjs\dist\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\systemjs\dist\system-polyfills.src.js" Target="Scripts\node_modules\systemjs\dist\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\systemjs\dist\system.js" Target="Scripts\node_modules\systemjs\dist\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\systemjs\dist\system.js.map" Target="Scripts\node_modules\systemjs\dist\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\systemjs\dist\system.src.js" Target="Scripts\node_modules\systemjs\dist\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\zone.js\dist\zone.js" Target="Scripts\node_modules\zone.js\dist\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\zone.js\dist\zone.min.js" Target="Scripts\node_modules\zone.js\dist\" Type="ElementFile" />
+    <ProjectItemFile Source="src\app.component.js" Target="Scripts\src\" Type="ElementFile" />
+    <ProjectItemFile Source="src\boot.js" Target="Scripts\src\" Type="ElementFile" />
+  </Files>
+</ProjectItem>
